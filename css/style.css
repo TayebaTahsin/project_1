@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,500;1,700;1,800&display=swap');
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+}
+
+
+header{
+	background-color: #F0FFF0;
+}
+.navbar-brand{
+	width: 200px;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 18px;
+    padding-left: 18px;
+    border-radius: 30px;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active{
+	background: #21B573 ;
+	color: #fff;
+	
+}
+
+.banner-content{
+}
+.banner-content span{
+	font-size: 16px;
+	color: #FD511A;
+}
+.banner-content h1{
+	font-size: 48px;
+	font-weight: 700;
+	color: #000;
+	padding: 20px 0;
+}
+.banner-content h1 strong{
+	font-weight: 700;
+	color: #21B573;
+}
+.banner-content p{
+	color: #000000;
+}
+
+.btn-custom{
+	background: #21B573;
+	color: #fff;
+	border-radius: 30px;
+}
+.btn-custom:hover{
+	background: #56548C;
+	color: #fff;
+}
+.feature-section{
+	padding: 50px 0;
+}
+.feature{
+	background-color: #F8FFFB;
+	text-align: center;
+	border-radius: 10px;
+	padding: 30px;
+	margin: 15px 0;
+	transition: all 0.4s linear;
+}
+.feature:hover{
+	background-color: #fff;
+	box-shadow: 0 20px 40px 0 rgb(0 0 0 / 10%);
+}
+.feature img{
+    height: 80px;
+}
+.feature h2{
+    font-size: 24px;
+    color: #413960;
+    margin: 18px 0;
+}
+.feature p{
+    font-size: 16px;
+    margin: 0;
+}
+
+.course-section{
+	padding-bottom: 50px 0;
+}
+.heading{
+    text-align: center;
+    padding: 40px 0;
+}
+.heading h1{
+    font-size: 36px;
+    font-weight: 800;
+    color: #413960;
+}
+
+
+
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 18px;
+    padding: 1rem 1rem;
+    box-shadow: 0 20px 40px 0 rgb(0 0 0 / 10%);
+    transition: all 0.4s linear;
+}
+.card:hover{
+	box-shadow: 0 20px 40px 0 transparent;
+}
+.card-body {
+    padding: 0;
+}
+.card img{}
+.card .card-title{
+    color: #413960;
+    font-size: 24px;
+    margin: 10px 0;
+}
+.card .card-text{
+    font-size: 16px;
+    color: #585859;
+}
+
+.post-info{
+
+	margin-top: 20px;
+}
+.post-info li{}
+.post-info li span{
+	font-size: 16px;
+	color: #585859;
+}
+.post-info li i{
+	font-size: 16px;
+	color: #585859;
+	margin-right: 10px;
+}
+
+.testimonial-section{
+	padding: 50px 0;
+}
+.xl-4{
+	    width: 33.33%;
+}
+footer{
+    background-color: #282531;
+    padding: 40px 0;
+}
+.widget{}
+.widget p{
+    font-size: 16px;
+    color: #fff;
+}
+.widget strong{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+}
+.widget strong ul{}
+.widget strong ul li{}
+.widget ul li a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 10px 0;
+    display: block;
+}
+.widget ul li a:hover{
+	color: #21B573;
+	transition: all 0.4s linear;
+}
+
+
+.copyright{
+	 font-size: 16px;
+    color: #fff;
+    margin-top: 100px;
+}
+
+@media(max-width: 991px){
+	.banner-content h1{
+		font-size: 38px;
+	}
+	.feature{
+		padding: 30px 10px;
+		width: 100%;
+	}
+	.feature h2{
+		font-size: 20px;
+		margin: 5px 0;
+	}
+}
+
+@media(max-width: 767px){
+	.banner-content h1{
+		font-size: 26px;
+		padding: 5px 0;
+
+	}
+.banner-content p{
+	font-size: 14px;
+
+}
+.banner-content{
+		text-align: center;
+	}
+	.banner{
+		max-width: 300px;
+		margin: auto;
+		margin-top: 40px;
+	}
+	.course-section .xl-4{
+		width: 70%;
+		margin: 20px auto;
+		
+	}
+}
+
+@media(max-width: 575px){
+	.banner-content{
+		text-align: center;
+	}
+	.banner{
+		max-width: 300px;
+		margin: auto;
+		margin-top: 40px;
+	}
+	.course-section .xl-4{
+		width: 70%;
+		margin: 20px auto;
+		
+	}
+}
